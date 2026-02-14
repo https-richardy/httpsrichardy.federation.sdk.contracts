@@ -1,6 +1,6 @@
-namespace HttpsRichardy.Federation.Sdk.Contracts.Payloads.Tenant;
+namespace HttpsRichardy.Federation.Sdk.Contracts.Payloads.Realm;
 
-public sealed record TenantFetchParameters
+public sealed record RealmFetchParameters
 {
     public string? Id { get; init; }
 

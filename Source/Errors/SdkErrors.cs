@@ -14,7 +14,7 @@ public static class SdkErrors
 
     public static readonly Error Unauthorized = new(
         Code: "#ERROR-7E560",
-        Description: "The request was not authorized. Please check your credentials or tenant configuration."
+        Description: "The request was not authorized. Please check your credentials or realm configuration."
     );
 
     public static readonly Error Unknown = new(

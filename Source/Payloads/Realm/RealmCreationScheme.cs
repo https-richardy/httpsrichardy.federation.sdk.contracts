@@ -1,6 +1,6 @@
-namespace HttpsRichardy.Federation.Sdk.Contracts.Payloads.Tenant;
+namespace HttpsRichardy.Federation.Sdk.Contracts.Payloads.Realm;
 
-public sealed record TenantCreationScheme
+public sealed record RealmCreationScheme
 {
     public string Name { get; init; } = default!;
     public string? Description { get; init; } = default!;

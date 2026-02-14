@@ -4,7 +4,7 @@ public static class AuthorizationErrors
 {
     public static readonly Error RedirectUriNotAllowed = new(
         Code: "#ERROR-F8EBC",
-        Description: "The specified redirect URI is not registered or allowed for this tenant."
+        Description: "The specified redirect URI is not registered or allowed for this realm."
     );
 
     public static readonly Error InvalidAuthorizationCode = new(
